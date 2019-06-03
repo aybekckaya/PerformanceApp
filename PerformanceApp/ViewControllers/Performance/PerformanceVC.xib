@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PerformanceVC" customModule="CADisplayLinkAnimations" customModuleProvider="target">
+            <connections>
+                <outlet property="lblActualFrames" destination="iNm-kG-3uh" id="FWt-tA-gzn"/>
+                <outlet property="lblElapsedTime" destination="YvA-va-2mg" id="LK8-al-RMz"/>
+                <outlet property="lblFramesPerSecond" destination="0UE-gY-Xqt" id="FeP-EC-bPa"/>
+                <outlet property="lblTimeDifference" destination="GcN-os-fah" id="2tI-zp-dYS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elapsed Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Um-Iu-VNm">
+                    <rect key="frame" x="20" y="147" width="205.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="205.5" id="eYh-wU-okL"/>
+                        <constraint firstAttribute="height" constant="21" id="suu-h6-ZlW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elapsed Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvA-va-2mg">
+                    <rect key="frame" x="249.5" y="146.5" width="156.5" height="22"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elapsed Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-os-fah">
+                    <rect key="frame" x="249.5" y="201" width="156.5" height="22"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Difference : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecE-2t-AFX">
+                    <rect key="frame" x="20" y="201" width="205.5" height="22"/>
+                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frames Per Second: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAW-LJ-kg6">
+                    <rect key="frame" x="20" y="256" width="205.5" height="22"/>
+                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UE-gY-Xqt">
+                    <rect key="frame" x="249.5" y="256" width="156.5" height="22"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNm-kG-3uh">
+                    <rect key="frame" x="249.5" y="311" width="156.5" height="22"/>
+                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actual Frame Rate: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUz-b8-Wkn">
+                    <rect key="frame" x="20" y="311" width="205.5" height="22"/>
+                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CUz-b8-Wkn" firstAttribute="leading" secondItem="YAW-LJ-kg6" secondAttribute="leading" id="3pf-MM-dNG"/>
+                <constraint firstItem="iNm-kG-3uh" firstAttribute="trailing" secondItem="0UE-gY-Xqt" secondAttribute="trailing" id="4PA-RI-uD5"/>
+                <constraint firstItem="3Um-Iu-VNm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="103" id="5cb-A5-GRq"/>
+                <constraint firstItem="CUz-b8-Wkn" firstAttribute="trailing" secondItem="YAW-LJ-kg6" secondAttribute="trailing" id="5gs-ex-QtV"/>
+                <constraint firstItem="YAW-LJ-kg6" firstAttribute="leading" secondItem="ecE-2t-AFX" secondAttribute="leading" id="Box-dq-gr7"/>
+                <constraint firstItem="YvA-va-2mg" firstAttribute="centerY" secondItem="3Um-Iu-VNm" secondAttribute="centerY" id="EGL-fL-o5n"/>
+                <constraint firstItem="CUz-b8-Wkn" firstAttribute="top" secondItem="YAW-LJ-kg6" secondAttribute="bottom" constant="33" id="FiH-QH-E3B"/>
+                <constraint firstItem="YAW-LJ-kg6" firstAttribute="top" secondItem="ecE-2t-AFX" secondAttribute="bottom" constant="33" id="GMa-ex-llZ"/>
+                <constraint firstItem="GcN-os-fah" firstAttribute="leading" secondItem="YvA-va-2mg" secondAttribute="leading" id="KJJ-p5-Vss"/>
+                <constraint firstItem="0UE-gY-Xqt" firstAttribute="trailing" secondItem="GcN-os-fah" secondAttribute="trailing" id="OTC-Bu-fam"/>
+                <constraint firstItem="0UE-gY-Xqt" firstAttribute="leading" secondItem="GcN-os-fah" secondAttribute="leading" id="TUt-Sc-RtE"/>
+                <constraint firstItem="ecE-2t-AFX" firstAttribute="trailing" secondItem="3Um-Iu-VNm" secondAttribute="trailing" id="U5Z-nf-aRq"/>
+                <constraint firstItem="3Um-Iu-VNm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Uop-V1-fG2"/>
+                <constraint firstItem="GcN-os-fah" firstAttribute="trailing" secondItem="YvA-va-2mg" secondAttribute="trailing" id="V7Q-Os-Z3J"/>
+                <constraint firstItem="ecE-2t-AFX" firstAttribute="leading" secondItem="3Um-Iu-VNm" secondAttribute="leading" id="YMW-hx-EeU"/>
+                <constraint firstItem="YvA-va-2mg" firstAttribute="leading" secondItem="3Um-Iu-VNm" secondAttribute="trailing" constant="24" id="bI1-1y-CXg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YvA-va-2mg" secondAttribute="trailing" constant="8" id="bRO-3P-u6s"/>
+                <constraint firstItem="YAW-LJ-kg6" firstAttribute="trailing" secondItem="ecE-2t-AFX" secondAttribute="trailing" id="g4X-VP-ESf"/>
+                <constraint firstItem="iNm-kG-3uh" firstAttribute="leading" secondItem="0UE-gY-Xqt" secondAttribute="leading" id="oex-53-bcY"/>
+                <constraint firstItem="ecE-2t-AFX" firstAttribute="top" secondItem="3Um-Iu-VNm" secondAttribute="bottom" constant="33" id="x6w-Fx-HVZ"/>
+                <constraint firstItem="CUz-b8-Wkn" firstAttribute="centerY" secondItem="iNm-kG-3uh" secondAttribute="centerY" id="xIn-MD-oAH"/>
+                <constraint firstItem="0UE-gY-Xqt" firstAttribute="centerY" secondItem="YAW-LJ-kg6" secondAttribute="centerY" id="xbl-i5-P44"/>
+                <constraint firstItem="GcN-os-fah" firstAttribute="centerY" secondItem="ecE-2t-AFX" secondAttribute="centerY" id="zM1-8y-vqH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </view>
+    </objects>
+</document>

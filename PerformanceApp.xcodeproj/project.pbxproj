@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A365CD8D22A5C077007E20F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365CD8C22A5C077007E20F2 /* AppDelegate.swift */; };
+		A365CD9522A5C077007E20F2 /* PerformanceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A365CD9322A5C077007E20F2 /* PerformanceApp.xcdatamodeld */; };
+		A365CD9722A5C078007E20F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A365CD9622A5C078007E20F2 /* Assets.xcassets */; };
+		A365CD9A22A5C078007E20F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365CD9822A5C078007E20F2 /* LaunchScreen.storyboard */; };
+		A365CDA522A5C079007E20F2 /* PerformanceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365CDA422A5C079007E20F2 /* PerformanceAppTests.swift */; };
+		A365CDB022A5C079007E20F2 /* PerformanceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365CDAF22A5C079007E20F2 /* PerformanceAppUITests.swift */; };
+		A365CDC122A5C122007E20F2 /* PerformanceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A365CDBF22A5C122007E20F2 /* PerformanceVC.xib */; };
+		A365CDC222A5C122007E20F2 /* PerformanceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A365CDBF22A5C122007E20F2 /* PerformanceVC.xib */; };
+		A365CDC322A5C122007E20F2 /* PerformanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365CDC022A5C122007E20F2 /* PerformanceVC.swift */; };
+		A365CDC422A5C122007E20F2 /* PerformanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365CDC022A5C122007E20F2 /* PerformanceVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A365CDA122A5C079007E20F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A365CD8122A5C077007E20F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A365CD8822A5C077007E20F2;
+			remoteInfo = PerformanceApp;
+		};
+		A365CDAC22A5C079007E20F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A365CD8122A5C077007E20F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A365CD8822A5C077007E20F2;
+			remoteInfo = PerformanceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A365CD8922A5C077007E20F2 /* PerformanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365CD8C22A5C077007E20F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A365CD9422A5C077007E20F2 /* PerformanceApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerformanceApp.xcdatamodel; sourceTree = "<group>"; };
+		A365CD9622A5C078007E20F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A365CD9922A5C078007E20F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A365CD9B22A5C078007E20F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A365CDA022A5C079007E20F2 /* PerformanceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365CDA422A5C079007E20F2 /* PerformanceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceAppTests.swift; sourceTree = "<group>"; };
+		A365CDA622A5C079007E20F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A365CDAB22A5C079007E20F2 /* PerformanceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365CDAF22A5C079007E20F2 /* PerformanceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceAppUITests.swift; sourceTree = "<group>"; };
+		A365CDB122A5C079007E20F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A365CDBF22A5C122007E20F2 /* PerformanceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerformanceVC.xib; sourceTree = "<group>"; };
+		A365CDC022A5C122007E20F2 /* PerformanceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A365CD8622A5C077007E20F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365CD9D22A5C079007E20F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365CDA822A5C079007E20F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A365CD8022A5C077007E20F2 = {
+			isa = PBXGroup;
+			children = (
+				A365CD8B22A5C077007E20F2 /* PerformanceApp */,
+				A365CDA322A5C079007E20F2 /* PerformanceAppTests */,
+				A365CDAE22A5C079007E20F2 /* PerformanceAppUITests */,
+				A365CD8A22A5C077007E20F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A365CD8A22A5C077007E20F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A365CD8922A5C077007E20F2 /* PerformanceApp.app */,
+				A365CDA022A5C079007E20F2 /* PerformanceAppTests.xctest */,
+				A365CDAB22A5C079007E20F2 /* PerformanceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A365CD8B22A5C077007E20F2 /* PerformanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				A365CDBD22A5C0F7007E20F2 /* ViewControllers */,
+				A365CD8C22A5C077007E20F2 /* AppDelegate.swift */,
+				A365CD9622A5C078007E20F2 /* Assets.xcassets */,
+				A365CD9822A5C078007E20F2 /* LaunchScreen.storyboard */,
+				A365CD9B22A5C078007E20F2 /* Info.plist */,
+				A365CD9322A5C077007E20F2 /* PerformanceApp.xcdatamodeld */,
+			);
+			path = PerformanceApp;
+			sourceTree = "<group>";
+		};
+		A365CDA322A5C079007E20F2 /* PerformanceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A365CDA422A5C079007E20F2 /* PerformanceAppTests.swift */,
+				A365CDA622A5C079007E20F2 /* Info.plist */,
+			);
+			path = PerformanceAppTests;
+			sourceTree = "<group>";
+		};
+		A365CDAE22A5C079007E20F2 /* PerformanceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A365CDAF22A5C079007E20F2 /* PerformanceAppUITests.swift */,
+				A365CDB122A5C079007E20F2 /* Info.plist */,
+			);
+			path = PerformanceAppUITests;
+			sourceTree = "<group>";
+		};
+		A365CDBD22A5C0F7007E20F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A365CDBE22A5C0FE007E20F2 /* Performance */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A365CDBE22A5C0FE007E20F2 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				A365CDC022A5C122007E20F2 /* PerformanceVC.swift */,
+				A365CDBF22A5C122007E20F2 /* PerformanceVC.xib */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A365CD8822A5C077007E20F2 /* PerformanceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A365CDB422A5C079007E20F2 /* Build configuration list for PBXNativeTarget "PerformanceApp" */;
+			buildPhases = (
+				A365CD8522A5C077007E20F2 /* Sources */,
+				A365CD8622A5C077007E20F2 /* Frameworks */,
+				A365CD8722A5C077007E20F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerformanceApp;
+			productName = PerformanceApp;
+			productReference = A365CD8922A5C077007E20F2 /* PerformanceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A365CD9F22A5C079007E20F2 /* PerformanceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A365CDB722A5C079007E20F2 /* Build configuration list for PBXNativeTarget "PerformanceAppTests" */;
+			buildPhases = (
+				A365CD9C22A5C079007E20F2 /* Sources */,
+				A365CD9D22A5C079007E20F2 /* Frameworks */,
+				A365CD9E22A5C079007E20F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A365CDA222A5C079007E20F2 /* PBXTargetDependency */,
+			);
+			name = PerformanceAppTests;
+			productName = PerformanceAppTests;
+			productReference = A365CDA022A5C079007E20F2 /* PerformanceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A365CDAA22A5C079007E20F2 /* PerformanceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A365CDBA22A5C079007E20F2 /* Build configuration list for PBXNativeTarget "PerformanceAppUITests" */;
+			buildPhases = (
+				A365CDA722A5C079007E20F2 /* Sources */,
+				A365CDA822A5C079007E20F2 /* Frameworks */,
+				A365CDA922A5C079007E20F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A365CDAD22A5C079007E20F2 /* PBXTargetDependency */,
+			);
+			name = PerformanceAppUITests;
+			productName = PerformanceAppUITests;
+			productReference = A365CDAB22A5C079007E20F2 /* PerformanceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A365CD8122A5C077007E20F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "aybek can kaya";
+				TargetAttributes = {
+					A365CD8822A5C077007E20F2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A365CD9F22A5C079007E20F2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A365CD8822A5C077007E20F2;
+					};
+					A365CDAA22A5C079007E20F2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A365CD8822A5C077007E20F2;
+					};
+				};
+			};
+			buildConfigurationList = A365CD8422A5C077007E20F2 /* Build configuration list for PBXProject "PerformanceApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A365CD8022A5C077007E20F2;
+			productRefGroup = A365CD8A22A5C077007E20F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A365CD8822A5C077007E20F2 /* PerformanceApp */,
+				A365CD9F22A5C079007E20F2 /* PerformanceAppTests */,
+				A365CDAA22A5C079007E20F2 /* PerformanceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A365CD8722A5C077007E20F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365CDC122A5C122007E20F2 /* PerformanceVC.xib in Resources */,
+				A365CD9A22A5C078007E20F2 /* LaunchScreen.storyboard in Resources */,
+				A365CD9722A5C078007E20F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365CD9E22A5C079007E20F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365CDC222A5C122007E20F2 /* PerformanceVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365CDA922A5C079007E20F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A365CD8522A5C077007E20F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365CD9522A5C077007E20F2 /* PerformanceApp.xcdatamodeld in Sources */,
+				A365CD8D22A5C077007E20F2 /* AppDelegate.swift in Sources */,
+				A365CDC322A5C122007E20F2 /* PerformanceVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365CD9C22A5C079007E20F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365CDA522A5C079007E20F2 /* PerformanceAppTests.swift in Sources */,
+				A365CDC422A5C122007E20F2 /* PerformanceVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365CDA722A5C079007E20F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365CDB022A5C079007E20F2 /* PerformanceAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A365CDA222A5C079007E20F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A365CD8822A5C077007E20F2 /* PerformanceApp */;
+			targetProxy = A365CDA122A5C079007E20F2 /* PBXContainerItemProxy */;
+		};
+		A365CDAD22A5C079007E20F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A365CD8822A5C077007E20F2 /* PerformanceApp */;
+			targetProxy = A365CDAC22A5C079007E20F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A365CD9822A5C078007E20F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A365CD9922A5C078007E20F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A365CDB222A5C079007E20F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A365CDB322A5C079007E20F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A365CDB522A5C079007E20F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FMTT8DQ4W;
+				INFOPLIST_FILE = PerformanceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ack.Ack.PerformanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A365CDB622A5C079007E20F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FMTT8DQ4W;
+				INFOPLIST_FILE = PerformanceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ack.Ack.PerformanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A365CDB822A5C079007E20F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FMTT8DQ4W;
+				INFOPLIST_FILE = PerformanceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ack.Ack.PerformanceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerformanceApp.app/PerformanceApp";
+			};
+			name = Debug;
+		};
+		A365CDB922A5C079007E20F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FMTT8DQ4W;
+				INFOPLIST_FILE = PerformanceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ack.Ack.PerformanceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerformanceApp.app/PerformanceApp";
+			};
+			name = Release;
+		};
+		A365CDBB22A5C079007E20F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FMTT8DQ4W;
+				INFOPLIST_FILE = PerformanceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ack.Ack.PerformanceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerformanceApp;
+			};
+			name = Debug;
+		};
+		A365CDBC22A5C079007E20F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FMTT8DQ4W;
+				INFOPLIST_FILE = PerformanceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ack.Ack.PerformanceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerformanceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A365CD8422A5C077007E20F2 /* Build configuration list for PBXProject "PerformanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A365CDB222A5C079007E20F2 /* Debug */,
+				A365CDB322A5C079007E20F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A365CDB422A5C079007E20F2 /* Build configuration list for PBXNativeTarget "PerformanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A365CDB522A5C079007E20F2 /* Debug */,
+				A365CDB622A5C079007E20F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A365CDB722A5C079007E20F2 /* Build configuration list for PBXNativeTarget "PerformanceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A365CDB822A5C079007E20F2 /* Debug */,
+				A365CDB922A5C079007E20F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A365CDBA22A5C079007E20F2 /* Build configuration list for PBXNativeTarget "PerformanceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A365CDBB22A5C079007E20F2 /* Debug */,
+				A365CDBC22A5C079007E20F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A365CD9322A5C077007E20F2 /* PerformanceApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A365CD9422A5C077007E20F2 /* PerformanceApp.xcdatamodel */,
+			);
+			currentVersion = A365CD9422A5C077007E20F2 /* PerformanceApp.xcdatamodel */;
+			path = PerformanceApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A365CD8122A5C077007E20F2 /* Project object */;
+}
